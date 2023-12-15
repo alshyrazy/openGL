@@ -5,6 +5,7 @@ unsigned int renderer;
 unsigned int vao[1];
 unsigned int vbo[2];
 unsigned int test;
+unsigned int cool;
 GLint vertCompiled;
 GLint fragCompiled;
 #pragma endregion
@@ -74,6 +75,7 @@ return program;
 
 void init()
 {
+
 	float vert2[]
 	{
 		0.0, 0.0, 1.0,
