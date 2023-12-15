@@ -1,8 +1,10 @@
 #include "Utilis.h"
+#include "iostream"
 #pragma region var
 unsigned int renderer;
 unsigned int vao[1];
 unsigned int vbo[2];
+unsigned int test;
 GLint vertCompiled;
 GLint fragCompiled;
 #pragma endregion
